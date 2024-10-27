@@ -88,9 +88,9 @@ FastAPI provides automatic API documentation at `http://127.0.0.1:8000/docs`. Yo
 
 ## Key Endpoints
 
-- POST /signup: Register a new user.
-- POST /token: User login and JWT token generation.
-- GET /protected: Access protected routes with a valid JWT token.
-- POST /download: Save a downloaded image link for the authenticated user.
-- GET /downloads: Retrieve all downloaded image links for the authenticated user.
+- `POST /signup`: Register a new user.
+- `POST /token`: User login and JWT token generation.
+- `GET /protected`: Access protected routes with a valid JWT token.
+- `POST /download`: Save a downloaded image link for the authenticated user.
+- `GET /downloads`: Retrieve all downloaded image links for the authenticated user.
   
